@@ -1,0 +1,14 @@
+header {
+    module = idbyname
+    help = "idbyname-chords"
+    have_music_displayer = yes
+    fillnum = 2
+        random_transpose = accidentals, -5, 5
+        title = _("Major, minor and dominant 7 chords")
+        lesson_heading = _("Identify the chord")
+        test = "6x"
+        test_requirement = "90%"
+}
+question { name=_("minor") name[no]="moll" chord("c' es' g'") }
+question { name=_("major") name[no]="dur" chord("c' e' g'") }
+question { name=_i("chord|7") chord("c' e' g' bes'") }

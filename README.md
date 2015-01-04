@@ -1,4 +1,7 @@
 GNU_solfege_lesson_files
 ========================
 
-Misc. GNU Solfege lesson files
+Miscellaneous GNU Solfege lesson files
+
+Drop the files in `~/.solfege/exercises/user/lesson-files`.
+
