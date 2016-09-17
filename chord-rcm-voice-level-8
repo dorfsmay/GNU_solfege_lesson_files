@@ -1,0 +1,17 @@
+header {
+    module = idbyname
+    help = "idbyname-chords"
+    have_music_displayer = yes
+    fillnum = 2
+        random_transpose = accidentals, -5, 5
+        title = _("RCM level 8, four note chords")
+        lesson_heading = _("Identify the chord")
+        test = "6x"
+        test_requirement = "90%"
+}
+question { name=_("minor root") name[no]="moll" chord("c' es' g' c''") }
+question { name=_("minor first inv") name[no]="moll" chord("ees' g' c'' es''") }
+question { name=_("major root") name[no]="dur" chord("c' e' g' c''") }
+question { name=_("major first inv") name[no]="dur" chord("e' g' c'' e''") }
+question { name=_i("chord|dom7") chord("c' e' g' bes'") }
+question { name=_i("chord|dim7") chord("c' es' ges' beses'") }
