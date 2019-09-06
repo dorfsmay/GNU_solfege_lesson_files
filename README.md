@@ -10,7 +10,7 @@ Examples of exercises can be found at /usr/share/solfege/exercises/standard/
 in lesson-files and regression-lesson-files.
 
 ## License waiver
-These files are released in the Public Domain. Their original source can be foudn at https://github.com/dorfsmay/GNU_solfege_lesson_files
+These files are released in the Public Domain. Their original source can be found at https://github.com/dorfsmay/GNU_solfege_lesson_files
 
 ## Install
 - click on the "Clone or download" green button
